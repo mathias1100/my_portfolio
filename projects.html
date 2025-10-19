@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Projects - My Personal Website</title>
+
+  <!-- Bootstrap CSS -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+
+  <!-- Font Awesome for icons -->
+  <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    rel="stylesheet"
+  />
+</head>
+<body class="d-flex flex-column min-vh-100">
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand fw-semibold" href="index.html">MT</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item">
+            <a class="nav-link" href="hobbies.html">Hobbies</a></li>
+          <li class="nav-item">
+            <a class="nav-link active" href="projects.html">Projects</a>
+          </li>
+        </ul>
+       
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main content -->
+  <main class="container flex-grow-1 my-5">
+    <h2 class="text-center mb-4">My Projects</h2>
+
+    <div class="accordion" id="projectsAccordion">
+      
+      <!-- Project 1 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button
+            class="accordion-button"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapseOne"
+            aria-expanded="true"
+            aria-controls="collapseOne"
+          >
+            Portfolio Website
+          </button>
+        </h2>
+        <div
+          id="collapseOne"
+          class="accordion-collapse collapse show"
+          aria-labelledby="headingOne"
+          data-bs-parent="#projectsAccordion"
+        >
+          <div class="accordion-body">
+            <div class="row">
+              <div class="col-md-4">
+                <img
+                  src="./resources/img/WebProject.png"
+                  alt="Portfolio Website"
+                  class="img-fluid rounded"
+                />
+              </div>
+              <div class="col-md-8">
+                <p>
+                  A responsive personal portfolio website built using HTML, CSS, Bootstrap, and JavaScript. It showcases my skills, projects, and includes links to my social media accounts.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <!-- Project 2 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button
+            class="accordion-button"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapseOne"
+            aria-expanded="true"
+            aria-controls="collapseOne"
+          >
+            Hash Table Implementaion (C++)
+          </button>
+        </h2>
+        <div
+          id="collapseOne"
+          class="accordion-collapse collapse show"
+          aria-labelledby="headingOne"
+          data-bs-parent="#projectsAccordion"
+        >
+          <div class="accordion-body">
+            <div class="row">
+              <div class="col-md-4">
+                <img
+                  src="./resources/img/Hash_Project.png"
+                  alt="Hash_Table_Implementation"
+                  class="img-fluid rounded"
+                />
+              </div>
+              <div class="col-md-8">
+                <p>
+                     Implementaion of a Hash Table to store a collection of video game CDs for a person who wants to keep track of all the game CDs they own. The program also tracks whether the owner is willing to sell the game, along with the minimum price they are willing to accept for the game if it is sold. 
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+  
+
+      <!-- Project 3 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button
+            class="accordion-button"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapseOne"
+            aria-expanded="true"
+            aria-controls="collapseOne"
+          >
+        Text Encryptor Demo (Python)
+   </button>
+        </h2>
+        <div
+          id="collapseOne"
+          class="accordion-collapse collapse show"
+          aria-labelledby="headingOne"
+          data-bs-parent="#projectsAccordion"
+        >
+          <div class="accordion-body">
+            <div class="row">
+              <div class="col-md-4">
+                <img
+                  src="./resources/img/Encryption.png"
+                  alt="Text_Encryptor"
+                  class="img-fluid rounded"
+                />
+              </div>
+              <div class="col-md-8">
+                <p>
+        I used the Python programming language to write a program that is interactive with the user and encrypts a text by letting the user choose one option. The two encryption methods available are cypher's method and Vigenère's method.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+<!-- Footer -->
+<footer class="bg-light text-center mt-auto">
+  <div class="container">
+    <h5>Connect with me</h5>
+    <div class="d-flex justify-content-center gap-4 mt-3">
+      <!-- Instagram -->
+      <a href="https://instagram.com/matimike12" target="_blank" class="text-dark fs-4" aria-label="Instagram">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <!-- Facebook -->
+      <a href="https://facebook.com/mathias.michael.5245" target="_blank" class="text-dark fs-4" aria-label="Facebook">
+        <i class="fab fa-facebook"></i>
+      </a>
+      <!-- GitHub -->
+      <a href="https://github.com/mathias1100" target="_blank" class="text-dark fs-4" aria-label="GitHub">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+  </div>
+   <div class=" " >
+        <a href="resume.html" class="btn" >View Resume</a>
+      </div>
+
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  
+</body>
+</html>
