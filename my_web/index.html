@@ -33,28 +33,34 @@
 
 <body>
 
-
-
-
-
-<!-- Navigation Bar -->
+  <!-- Navigation Bar -->
   <nav class="navbar navbar-expand-md navbar-light">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">My Website</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+
+      <button 
+      class="navbar-toggler" 
+      type="button" 
+      data-bs-toggle="collapse" 
+      data-bs-target="#navbarNav" 
+      aria-controls="navbarNav" 
+      aria-expanded="false" 
+      aria-label="Toggle navigation"
+      >
         <span class="navbar-toggler-icon"></span>
       </button>
+
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item">
             <a class="nav-link active" href="#"> 
-              <img src = "../resources/img/house.svg"> Home</a>
+              <img src = "./resources/img/house.svg"> Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="./hobbies.html">Hobbies</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Projects</a>
+            <a class="nav-link" href="projects.html">Projects</a>
           </li>
         </ul>
     
@@ -62,27 +68,25 @@
     </div>
   </nav>
 
-
-<div class="container my-4" id="download-resume">
-  <div class="text-center">
-    <div class="col-lg-12">
-      <h2 class="h3">Résumé</h2>
-      <p>View online or download a copy.</p>
-      <div class="d-flex gap-2 justify-content-center" >
-        <a href="../resources/Mathias_Teferra_Resume.pdf" class="btn btn-outline-secondary" target="_blank" rel="noopener">
-          View PDF
-        </a>
-        <a href="../resources/Mathias_Teferra_Resume.pdf" class="btn btn-primary"
-           download="Mathias_Teferra_Resume.pdf">
-          Download PDF
-        </a>
+  <!-- Content Section -->
+  <div class="container mt-5">
+    <div class="row">
+      <!-- Image Section -->
+      <div class="col-md-4">
+        <img src="./resources/img/Mathias_Photo_Cropped.jpeg" alt="Mathias" class="img-fluid rounded-circle">
+      </div>
+      <!-- Description Section -->
+      <div class="col-md-8">
+        <h2>Mathias Teferra</h2>
+        <p>
+          Hi! I am passionate about web development, coding, and learning new technologies. In my free time, I enjoy playing table tennis, video games and keybord.
+      
       </div>
     </div>
-    
   </div>
-</div>
 
-  
+
+
 <!-- Footer -->
 <footer class="bg-light text-center mt-auto">
   <div class="container">
@@ -102,8 +106,14 @@
       </a>
     </div>
   </div>
+  <div class=" " >
+    <a href="resume.html" class="btn" class ="">View Resume</a>
+  </div>
 </footer>
 
 
 </body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
 </html>
